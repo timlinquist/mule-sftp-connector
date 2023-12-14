@@ -1,2 +1,4 @@
 projectType: extension
 mavenTool: "3.9.5"
+testJdkTool: OPEN-JDK11
+mavenAdditionalArgs: -Dtest=none -DfailIfNoTests=false -DminVersion=4.3.0 -DruntimeVersion=4.3.0 -DruntimeProduct=MULE_EE
